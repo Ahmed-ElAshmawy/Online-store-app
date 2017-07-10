@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ordered</title>
+
+    <style>
+    	table
+{
+    width: 80%;
+    height:50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border: 1px solid black;
+}
+.total{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;    
+}
+
+button {
+    padding: 5px 8px;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    display:inline-block;
+    margin:60px 0 0 30px;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <button class="btn" type="button"" onclick="back()">Back To Main Page</button>
+    <button class="btn" type="button"" onclick="confirm()">Confirm</button>
+    </div>
+    <script src="bill.js"></script>
+</body>
+</html>
